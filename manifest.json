@@ -1,0 +1,16 @@
+{
+  "name": "Books That Grow",
+  "description": "Read better with the help of our leveled book collection. Over 100 titles across biographies, social studies, science and more.",
+  "version": "1.2",
+  "manifest_version": 2,
+  "permissions": [
+    "webview"
+  ],
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "16": "btg1.png", "128": "btg2.png" }
+
+}
