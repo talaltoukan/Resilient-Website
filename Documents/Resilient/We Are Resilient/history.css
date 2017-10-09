@@ -1,0 +1,227 @@
+xhtml, body{
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+  font-family: 'Raleway', sans-serif;
+}
+
+.logimg {
+    height: 50px;
+    transform: translate(0%, 50%);
+}
+
+/* Navbar */
+#contact-nav{
+  color: white;
+  height: 25px;
+  background-color: black;
+}
+
+#contact-elements li{
+  float: right; 
+  transform: translate(0, 2px); 
+  height: 25px;
+}
+
+#contact-elements > li > a 
+{ 
+  color: #808080;
+  float: right;
+  transform: translate(0, -10px); 
+  display:block; 
+  padding-left: 4px;
+}
+
+#contact-elements > li > a:hover 
+{ 
+  background-color: transparent;
+  color: white;
+}
+
+#navbar-elements {
+	float:right;
+}
+.navbar-default {
+	background-color: #3e0a05;
+	border-color: #3e0a05;
+  height: 125px;
+  position: fixed;
+  top: 0px;
+  text-transform: uppercase;
+  transition: top 0.3s ease-in-out; 
+}
+
+.nav-up {
+    top: -60px;
+}
+.navbar-default .navbar-brand {
+	color: #808080;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	color: white;
+}
+.navbar-default .navbar-text {
+	color: #808080;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #808080;
+  transform: translate(0%, 50%);
+}
+.navbar-default .navbar-nav > li > a:hover{
+  color: white;
+}
+.navbar-default .navbar-nav > li > a:focus{
+  color: #808080;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #3e0a05; 
+  transform: translate(0%, 19%);
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #808080;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus  {
+  color: white;
+  background-color: #9c3f35;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li.divider {
+  background-color: #9c3f35;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: white;
+  background-color: #9c3f35;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #9c3f35;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: #9c3f35;
+}
+.navbar-default .navbar-toggle {
+  border-color: #9c3f35;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #9c3f35;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #808080;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #808080;
+}
+.navbar-default .navbar-link {
+  color: #808080;
+}
+.navbar-default .navbar-link:hover {
+  color: white;
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #808080;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: white;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: white;
+		background-color: #9c3f35;
+	}
+}
+
+/* Text */
+#hist{
+  margin-top: 125px;
+  margin-bottom: 30px;
+}
+
+#histbanner{
+  background-image: url("../img/building.jpg");
+  background-size: cover;
+
+  height: 300px;
+}
+
+#histhead{
+  margin-left: 7.5%;
+  margin-top: 8%;
+  font-size: 4em;
+  font-weight: bold;
+  color: #3e0a05;
+}
+
+#histblurb{
+  font-size: 1.3em;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+/* Bottom */
+footer{
+  background-color: #3e0a05;
+  height: 250px;
+  position: relative;
+}
+
+.footer-logo .logimg{
+  opacity: 1 !important;
+}
+
+#copy{
+  color: white;
+  height: 25px;
+  background-color: black;
+  position: absolute; 
+  bottom: 0;
+  width: 100%;
+}
+
+.col-sm-2.footer{
+  margin-top: 20px;
+  white-space: nowrap;
+}
+
+.col-sm-2.footer h4{
+  color: #808080;
+  font-weight: 900;
+}
+
+.navlinks{
+  list-style: none;
+}
+
+.navlinks li a{
+  color: white;
+}
+
+.wbencimg{
+  margin-top: 10px;
+  color: white;
+  width: 80%;
+}
+
+.foot-copy{
+  list-style: none;
+}
+
+.foot-copy li{
+  float: left;
+}
+
+.foot-copy li a{
+  display: inline-block;
+}
