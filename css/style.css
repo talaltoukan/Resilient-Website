@@ -6,16 +6,18 @@ xhtml, body{
 
 .logimg {
     height: 50px;
-    transform: translate(0%, 50%);
+    transform: translate(12%, 50%);
 }
 
 /* Navbar */
+/*
 #contact-nav{
   color: white;
   height: 25px;
   background-color: black;
 }
-
+*/
+/*
 #contact-elements li{
   float: right; 
   transform: translate(0, 2px); 
@@ -36,6 +38,7 @@ xhtml, body{
   background-color: transparent;
   color: white;
 }
+*/
 
 #navbar-elements {
 	float:right;
@@ -43,7 +46,7 @@ xhtml, body{
 .navbar-default {
 	background-color: #3e0a05;
 	border-color: #3e0a05;
-  height: 125px;
+  height: 100px;
   position: fixed;
   top: 0px;
   text-transform: uppercase;
@@ -51,42 +54,39 @@ xhtml, body{
 }
 
 .nav-up {
-    top: -60px;
+  top: -60px;
 }
-.navbar-default .navbar-brand {
-	color: #808080;
+
+.navbar-default .navbar-nav .dropdown-toggle{
+  padding-bottom: 33px;
 }
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-	color: white;
-}
-.navbar-default .navbar-text {
-	color: #808080;
-}
+
 .navbar-default .navbar-nav > li > a {
-  color: #808080;
-  transform: translate(0%, 50%);
+  transform: translate(0%, 40%);
 }
 .navbar-default .navbar-nav > li > a:hover{
   color: white;
+  border-bottom:3px solid white;
 }
 .navbar-default .navbar-nav > li > a:focus{
   color: #808080;
 }
+
 .navbar-default .navbar-nav > li > .dropdown-menu {
   background-color: #3e0a05; 
-  transform: translate(0%, 19%);
+  transform: translate(0, 28px);
 }
+
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
   color: #808080;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus  {
+  background-color: #3e0a05;
   color: white;
-  background-color: #9c3f35;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li.divider {
-  background-color: #9c3f35;
+  background-color: #3e0a05;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
@@ -94,37 +94,19 @@ xhtml, body{
   color: white;
   background-color: #9c3f35;
 }
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: white;
-  background-color: #9c3f35;
+
+.dropdown:hover .dropdown-menu {
+    display: block;
 }
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: white;
-  background-color: #9c3f35;
+
+.dropdown:hover .dropdown-toggle {
+    color: white;
+    border-bottom:3px solid white;
 }
-.navbar-default .navbar-toggle {
-  border-color: #9c3f35;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #9c3f35;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #808080;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #808080;
-}
-.navbar-default .navbar-link {
-  color: #808080;
-}
-.navbar-default .navbar-link:hover {
-  color: white;
+
+.dropdown:hover .dropdown-toggle:focus {
+    color: white;
+    border-bottom:3px solid white;
 }
 
 @media (max-width: 767px) {
@@ -145,7 +127,7 @@ xhtml, body{
 
 /* Carousel */
 #maincar{
-  top: 125px;
+  top: 100px;
 }
 
 #maincar .carousel{
@@ -210,8 +192,23 @@ xhtml, body{
 }
 
 /* About Us */
+
+.title-row{
+  padding-bottom: 0px;
+  background-image: url("../img/textback.png");
+}
+.title-row #whatwedo{
+  font-family: "Roboto Slab", serif;
+  color: white;
+  margin-bottom: 0px;
+  vertical-align: middle;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  margin-left: 50px;
+}
+
 #about{
-  margin-top: 100px;
+  margin-top: 0px;
   width: 100%;
   background-color: #e0e0e0;
 }
